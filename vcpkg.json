@@ -1,0 +1,13 @@
+{
+    "name": "sidecar-integration",
+    "version": "1.0.0",
+    "dependencies": [
+    {
+       "name": "protobuf", 
+       "version>=": "3.14.0"
+    }, "gtest"],
+    "builtin-baseline":"9172179c513aa84308e48b8dd0e3df90acec7204",
+    "overrides": [
+        { "name": "protobuf", "version": "3.14.0" }
+    ]
+}
