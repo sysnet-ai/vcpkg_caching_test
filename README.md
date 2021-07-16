@@ -16,4 +16,4 @@ Save vcpkg and its artifacts to cache
 ### Second Run
 - Runs with overlay-triplet.
 - Expected: Cached fast run since it should pick the results of previous build 
-- Encountered: ...
+- Encountered: Does full build.
