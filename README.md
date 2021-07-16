@@ -17,3 +17,11 @@ Save vcpkg and its artifacts to cache
 - Runs with overlay-triplet.
 - Expected: Cached fast run since it should pick the results of previous build 
 - Encountered: Does full build.
+- However, at the end it still sees the objects in the cache.
+```
+Post job cleanup.
+Save vcpkg and its artifacts to cache
+  Cache hit occurred on the cache key 'localGitId=-574880384-args=42-os=1553167195-appendedKey=411780070-triplet=1258145250', saving cache is skipped.
+⏱ elapsed: 0.090 seconds
+run-vcpkg post action execution succeeded
+```
